@@ -88,7 +88,7 @@ for playlist_uri in MBTI_playlists[index]:
       + str(index) + '\n'
     )
 
-csv = open("data/data_{}_{}_{}.csv".format(str(index), MBTI_keys[index], len(arr)), "w")
+csv = open("data/data_spotify/data_{}_{}_{}.csv".format(str(index), MBTI_keys[index], len(arr)), "w")
 csv.write("acousticness,danceability,energy,instrumentalness,key,liveness,loudness,speechiness,tempo,time_signature,valence,mbti\n")
 for record in arr:
   csv.write(record)
