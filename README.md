@@ -1,6 +1,6 @@
-# SpotiEar
+# SoundSoul
 
-SpotiEar is a service that can understand your Spotify Playlist and tells you your MBTI type!
+SoundSoul is a service that can output your music MBTI type based on your spotify playlist
 
 # Slides
 
